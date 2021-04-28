@@ -1,0 +1,39 @@
+@import "../../default.scss";
+
+.entry-content {
+	#mainvisual img {
+		width: 100%;
+	}
+	#allial {
+		overflow: hidden;
+		.allial-name {
+			width: fit-content;
+			h4 {
+				border-bottom: 1px #fff solid;
+				margin-bottom: 0;
+				padding-right: 3rem;
+			}
+			h5 {
+				color: rgb(159, 74, 237);
+				text-align: right;
+				margin-top: 0;
+			}
+		}
+		.aliiial-img {
+			text-align: right;
+			img {
+				width: 30rem;
+			}
+		}
+	}
+
+	@media screen and (max-width: 750px) {
+		#allial {
+			.aliiial-img {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
