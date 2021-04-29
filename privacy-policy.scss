@@ -1,0 +1,55 @@
+@import "./default.scss";
+.entry-content {
+	h4 {
+		color: rgb(159, 74, 237);
+		position: relative;
+		padding-left: 25px;
+	}
+
+	h4:before {
+		position: absolute;
+		content: "";
+		bottom: -3px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border: none;
+		border-left: solid 10px transparent;
+		border-bottom: solid 10px rgb(159, 74, 237);
+	}
+	h4:after {
+		position: absolute;
+		content: "";
+		bottom: -3px;
+		left: 10px;
+		width: 100%;
+		border-bottom: solid 1px rgb(159, 74, 237);
+	}
+
+	.list-2 {
+		border-top: none;
+		border-bottom: none;
+	}
+	.list-2 li {
+		list-style: none;
+		border-bottom: 2px dashed;
+		border-color: rgb(159, 74, 237); /* 線の色 */
+		position: relative;
+		margin: 0.5em 0 !important;
+		max-width: 730px; /* 横幅 */
+		padding: 5px 0 0.5em 1.4em;
+	}
+	.list-2 li:last-child {
+		border: none;
+	}
+	.list-2 li:before {
+		background-color: rgb(159, 74, 237); /* 点の色 */
+		position: absolute;
+		content: "";
+		top: 0.9em;
+		left: 0.5em;
+		width: 7px;
+		height: 7px;
+		border-radius: 4px;
+	}
+}
