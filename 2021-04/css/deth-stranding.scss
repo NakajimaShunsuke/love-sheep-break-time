@@ -1,0 +1,16 @@
+@import "../../default.scss";
+
+.entry-content {
+	#mainvisual {
+		text-align: center;
+		img {
+			width: 70%;
+		}
+
+		@media screen and (max-width: 750px) {
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
