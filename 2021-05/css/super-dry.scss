@@ -1,0 +1,50 @@
+@import "../../default.scss";
+
+.entry-content {
+	#mainvisual {
+		img {
+			width: 100%;
+		}
+	}
+	h4::before {
+		margin-right: 10px;
+		content: "";
+		width: 4rem; /*画像の幅*/
+		height: 4rem; /*画像の高さ*/
+		display: inline-block;
+		background: url("../images/icon.png") no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+	}
+	dl {
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		border-spacing: 0;
+	}
+
+	dl dt {
+		width: 30%;
+		color: rgb(159, 74, 237);
+		border-bottom: solid 1px rgb(159, 74, 237);
+		padding: 10px 0;
+	}
+
+	dl dd {
+		margin: 0;
+		width: 70%;
+		border-bottom: solid 1px #ddd;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	#advertising {
+		.advertising-list {
+			display: flex;
+			flex-wrap: wrap;
+			div {
+				margin: 5px;
+			}
+		}
+	}
+}
