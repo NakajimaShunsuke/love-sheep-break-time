@@ -1,0 +1,48 @@
+body {
+	background-image: url(https://cdn.blog.st-hatena.com/images/theme/backgrounds/2014/pixel-01@2x.png?version=b0f69bbd0bdeff995d71c167fc8b252679abb18e&env=production);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0 0;
+}
+
+.content {
+	color: #3f4551;
+	background: #fff;
+	margin: 0 auto;
+	width: 930px;
+}
+
+.entry-content {
+	width: 730px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3.052rem;
+}
+h2 {
+	font-size: 2.441rem;
+}
+h3 {
+	font-size: 1.953rem;
+}
+h4 {
+	font-size: 1.563rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+	.content {
+		overflow: hidden;
+		width: 100%;
+	}
+	.entry-content {
+		width: 100%;
+	}
+}

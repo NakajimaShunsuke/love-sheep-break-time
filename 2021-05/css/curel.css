@@ -116,4 +116,37 @@
 .entry-content #index-list h4 {
   color: #9f4aed;
 }
-/*# sourceMappingURL=default.css.map */
+
+.entry-content h4::before {
+  margin-right: 10px;
+  content: "";
+  width: 4rem;
+  /*画像の幅*/
+  height: 4rem;
+  /*画像の高さ*/
+  display: inline-block;
+  background: url("../images/icon-curel.png") no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.entry-content #mainvisual img {
+  width: 100%;
+}
+
+.entry-content dl dd {
+  text-align: left;
+}
+
+.entry-content #advertising .advertising-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.entry-content #advertising .advertising-list div {
+  margin: 5px;
+}
+/*# sourceMappingURL=curel.css.map */
