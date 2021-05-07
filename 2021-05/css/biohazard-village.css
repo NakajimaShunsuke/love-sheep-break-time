@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* はてなブログのデザインcss */
+.entry-content img {
+  width: 100%;
+}
+
 .entry-content #mainvisual img {
   width: 100%;
 }
@@ -22,7 +26,7 @@
           align-items: center;
   text-decoration: none;
   width: 70%;
-  height: 40px;
+  padding: 10px 0;
   background: #9f4aed;
   color: #fff;
 }
@@ -133,10 +137,6 @@
   margin: 5px;
 }
 
-.entry-content #mainvisual img {
-  width: 100%;
-}
-
 .entry-content h4::before {
   margin-right: 10px;
   content: "";
@@ -145,45 +145,8 @@
   height: 4rem;
   /*画像の高さ*/
   display: inline-block;
-  background: url("../images/icon.png") no-repeat;
+  background: url("../images/2317329.png") no-repeat;
   background-size: contain;
   vertical-align: middle;
 }
-
-.entry-content dl {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border-spacing: 0;
-}
-
-.entry-content dl dt {
-  width: 30%;
-  color: #9f4aed;
-  border-bottom: solid 1px #9f4aed;
-  padding: 10px 0;
-}
-
-.entry-content dl dd {
-  margin: 0;
-  width: 70%;
-  border-bottom: solid 1px #ddd;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.entry-content #advertising .advertising-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.entry-content #advertising .advertising-list div {
-  margin: 5px;
-}
-/*# sourceMappingURL=super-dry.css.map */
+/*# sourceMappingURL=biohazard-village.css.map */
