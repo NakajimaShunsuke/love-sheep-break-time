@@ -104,4 +104,14 @@
 			color: rgb(159, 74, 237);
 		}
 	}
+
+	#advertising {
+		.advertising-list {
+			display: flex;
+			flex-wrap: wrap;
+			div {
+				margin: 5px;
+			}
+		}
+	}
 }

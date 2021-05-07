@@ -1,0 +1,19 @@
+@import "../../default.scss";
+
+.entry-content {
+	#mainvisual {
+		img {
+			width: 100%;
+		}
+	}
+	h4::before {
+		margin-right: 10px;
+		content: "";
+		width: 4rem; /*画像の幅*/
+		height: 4rem; /*画像の高さ*/
+		display: inline-block;
+		background: url("../images/icon.png") no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+	}
+}
