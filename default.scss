@@ -1,6 +1,14 @@
 /* はてなブログのデザインcss */
 
 .entry-content {
+	img {
+		width: 100%;
+	}
+	#mainvisual {
+		img {
+			width: 100%;
+		}
+	}
 	.official-anchor {
 		margin: 20px auto;
 		display: block;
@@ -10,7 +18,7 @@
 		align-items: center;
 		text-decoration: none;
 		width: 70%;
-		height: 40px;
+		padding: 10px 0;
 		background: rgb(159, 74, 237);
 		color: #fff;
 
