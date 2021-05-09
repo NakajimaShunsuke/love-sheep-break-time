@@ -1,0 +1,17 @@
+@import "../../default.scss";
+
+.entry-content {
+	h4::before {
+		margin-right: 10px;
+		content: "";
+		width: 4rem;
+		/*画像の幅*/
+		height: 4rem;
+		/*画像の高さ*/
+		display: inline-block;
+		background: url("https://cdn-ak.f.st-hatena.com/images/fotolife/m/moviesment/20210501/20210501235353.png")
+			no-repeat;
+		background-size: contain;
+		vertical-align: middle;
+	}
+}
