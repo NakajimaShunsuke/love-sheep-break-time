@@ -1,0 +1,48 @@
+@import "../../default.scss";
+
+.entry-content {
+	#title {
+		h4 {
+			margin-top: 0;
+		}
+	}
+
+	.movies-select {
+		display: flex;
+		justify-content: center;
+	}
+
+	.movies-select div {
+		cursor: pointer;
+		margin: 10px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		border: rgb(159, 74, 237) 1px solid;
+		width: 100px;
+	}
+
+	.movies-select p {
+		color: rgb(159, 74, 237);
+		margin: 0;
+	}
+
+	.active {
+		background: rgb(159, 74, 237);
+	}
+
+	.active p {
+		color: #fff;
+	}
+
+	.movie-span {
+		color: #fff;
+		font-size: 1.3rem;
+		text-shadow: 1px 1px 0 rgb(159, 74, 237), -1px -1px 0 rgb(159, 74, 237),
+			-1px 1px 0 rgb(159, 74, 237), 1px -1px 0 rgb(159, 74, 237),
+			0px 1px 0 rgb(159, 74, 237), 0 -1px 0 rgb(159, 74, 237),
+			-1px 0 0 rgb(159, 74, 237), 1px 0 0 rgb(159, 74, 237);
+	}
+}

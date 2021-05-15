@@ -133,36 +133,56 @@
   margin: 5px;
 }
 
-.entry-content h4::before {
-  margin-right: 10px;
-  content: "";
-  width: 4rem;
-  /*画像の幅*/
-  height: 4rem;
-  /*画像の高さ*/
-  display: inline-block;
-  background: url("../images/icon-curel.png") no-repeat;
-  background-size: contain;
-  vertical-align: middle;
+.entry-content #title h4 {
+  margin-top: 0;
 }
 
-.entry-content #mainvisual img {
-  width: 100%;
-}
-
-.entry-content dl dd {
-  text-align: left;
-}
-
-.entry-content #advertising .advertising-list {
+.entry-content .movies-select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.entry-content #advertising .advertising-list div {
-  margin: 5px;
+.entry-content .movies-select div {
+  cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: #9f4aed 1px solid;
+  width: 100px;
 }
-/*# sourceMappingURL=curel.css.map */
+
+.entry-content .movies-select p {
+  color: #9f4aed;
+  margin: 0;
+}
+
+.entry-content .active {
+  background: #9f4aed;
+}
+
+.entry-content .active p {
+  color: #fff;
+}
+
+.entry-content .movie-span {
+  color: #fff;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 0 #9f4aed, -1px -1px 0 #9f4aed, -1px 1px 0 #9f4aed, 1px -1px 0 #9f4aed, 0px 1px 0 #9f4aed, 0 -1px 0 #9f4aed, -1px 0 0 #9f4aed, 1px 0 0 #9f4aed;
+}
+/*# sourceMappingURL=belle.css.map */
