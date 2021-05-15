@@ -1,26 +1,7 @@
 @charset "UTF-8";
 /* はてなブログのデザインcss */
-body {
-  background-image: url(https://cdn.blog.st-hatena.com/images/theme/backgrounds/2014/pixel-01@2x.png?version=b0f69bbd0bdeff995d71c167fc8b252679abb18e&env=production);
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-position: 0 0;
-}
-
-.content {
-  color: #fff;
-  background: #3f4551;
-  margin: 0 auto;
-  width: 930px;
-}
-
-.entry-content {
-  width: 730px;
-  margin: 0 auto;
-}
-
-.entry-content a {
-  color: #fff;
+.entry-content #mainvisual img {
+  width: 100%;
 }
 
 .entry-content .official-anchor {
@@ -41,7 +22,7 @@ body {
           align-items: center;
   text-decoration: none;
   width: 70%;
-  height: 40px;
+  padding: 10px 0;
   background: #9f4aed;
   color: #fff;
 }
@@ -90,38 +71,66 @@ body {
   color: #9f4aed;
 }
 
-h1 {
-  font-size: 3.052rem;
+.entry-content ul,
+.entry-content ol {
+  color: #9f4aed;
+  border-top: solid #9f4aed 1px;
+  /*上のボーダー*/
+  border-bottom: solid #9f4aed 1px;
+  /*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
 }
 
-h2 {
-  font-size: 2.441rem;
+.entry-content ul li,
+.entry-content ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
 }
 
-h3 {
-  font-size: 1.953rem;
+.entry-content ul li a,
+.entry-content ol li a {
+  color: #9f4aed;
 }
 
-h4 {
-  font-size: 1.563rem;
+.entry-content dl {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-spacing: 0;
 }
 
-h5 {
-  font-size: 1.25rem;
+.entry-content dl dt {
+  width: 30%;
+  color: #9f4aed;
+  border-bottom: solid 1px #9f4aed;
+  padding: 10px 0;
 }
 
-p {
-  font-size: 1rem;
+.entry-content dl dd {
+  margin: 0;
+  width: 70%;
+  border-bottom: solid 1px #ddd;
+  text-align: center;
+  padding: 10px 0;
 }
 
-@media screen and (max-width: 750px) {
-  .content {
-    overflow: hidden;
-    width: 100%;
-  }
-  .entry-content {
-    width: 100%;
-  }
+.entry-content #index-list h4 {
+  color: #9f4aed;
+}
+
+.entry-content #advertising .advertising-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.entry-content #advertising .advertising-list div {
+  margin: 5px;
 }
 
 .entry-content #mainvisual img {

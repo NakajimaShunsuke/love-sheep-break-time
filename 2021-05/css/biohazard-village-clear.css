@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* はてなブログのデザインcss */
-.entry-content img {
-  width: 100%;
-}
-
 .entry-content #mainvisual img {
   width: 100%;
 }
